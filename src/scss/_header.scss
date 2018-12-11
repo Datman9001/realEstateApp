@@ -51,6 +51,7 @@
             background-image: linear-gradient(to bottom, var(--color-2), var(--color-3));
             padding: 10px 25px;
             border-radius: 5px;
+            
             box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.6);
             transition: transform .2s ease-in-out;
             display: inline-block;
@@ -69,6 +70,43 @@
 
         }
     }
-
+    .nav-mobile{
+        display: none;
+    }
 
 }
+
+//Tablets size
+@media only screen and (min-width: 768px) {
+    
+} 
+
+
+//Tablet size
+@media only screen and (max-width: 768px){
+    .header{
+        height: 100px;
+    } 
+    .logo{
+        
+          
+    }
+    .nav{
+        display: none;
+    }
+    .nav-mobile{
+        display:inline-block !important;
+        align-self: auto;
+        cursor: pointer;
+        .fas{
+            font-size: 40px;
+        }
+    }
+   
+}
+
+//phone
+@media only screen and (max-width: 600px){
+
+
+} 
