@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import 'header';
+
+//colors
+:root{
+    --color-1: #0b002a;
+    --color-2: #fe7c84;
+    --color-3: #fe6c91;
+    --text-color-1: #a4a0a1;
+    --color-white: #ffffff;
+}
+
+html{
+  
+}
+
+body{
+    color:var(--text-color-1);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
