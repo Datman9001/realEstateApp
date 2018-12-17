@@ -17,7 +17,7 @@ class Header extends Component {
               <a href="/#" className='btn-nav'>Register</a>
             </div>
             <div className="nav-mobile">
-              <i class="fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
             </div>
 
 

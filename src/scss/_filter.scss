@@ -1,0 +1,95 @@
+.filter{
+    background: var(--color-4);
+    width: 35%;
+    height: 100vh;
+    display: inline-block;
+    float: left;
+     
+
+    .inside{
+      padding: 20px;
+      margin-left: 120px;
+      max-width: 300px;
+        
+        
+    }
+
+
+    &-title{
+        font-size: 25px;
+    
+        text-transform: uppercase;
+        color: var(--text-color-2);
+    }
+
+   &-option{
+        background: transparent;
+        box-sizing: inherit;
+        width: 80%;
+        height: 30px;
+        font-size: 16px;
+        color: var(--text-color-1);
+        display: block;
+        margin-bottom: 25px;
+ 
+    }
+
+    &-range{
+        margin-bottom: 30px;
+        display: block;
+        
+
+        &_title{
+            font-size: 18px;
+            margin: 15px 0;
+ 
+        }
+
+        input[type='text']{
+            display: inline-block;
+            width: 25%;
+            margin-right: 30px;
+            border-radius: 5px;
+            font-size: 16px;
+            padding: 5px;
+        }
+    }
+
+    &-checkboxes{
+        width: 100%;
+        label{
+            display: block;
+            width: 90%;
+            padding: 10px 0;
+            font-size: 18px;
+            input[type='checkbox']{
+                float: right;
+                font-size: 10
+            }
+        }
+    }
+}
+
+
+
+
+//Tablet size
+@media only screen and (max-width: 768px){
+    
+    .filter{
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+
+    }
+    .inside{
+        width: 100% !important;
+        max-width: 600px!important;
+      margin-left: 0 !important;
+      
+      margin: 0 auto !important;
+      
+       
+    }
+    
+}
